@@ -21,9 +21,9 @@ export function DiscoverPhase() {
             {/* Testimonial 1 */}
             <div className="bg-gray-50 rounded-xl p-6 md:p-8">
               <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-4">
-                "The current dashboard feels overwhelming. Everything is crammed into one screen, and I often have to
+                &quot;The current dashboard feels overwhelming. Everything is crammed into one screen, and I often have to
                 scroll or guess where to find the numbers I need. I mostly care about daily inventory levels and
-                shipment updates, but I have to dig through unrelated data to get that."
+                shipment updates, but I have to dig through unrelated data to get that.&quot;
               </p>
               <p className="text-gray-500 text-sm md:text-base font-medium">
                 ~ Ahmed Hassan - Warehouse Manager at LogiFlow Solutions
@@ -33,10 +33,10 @@ export function DiscoverPhase() {
             {/* Testimonial 2 */}
             <div className="bg-gray-50 rounded-xl p-6 md:p-8">
               <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-4">
-                "I find it really hard to track warehouse performance on the dashboard. There's no clear summary of
-                what's been processed versus what's pending or delayed. I usually have to export reports or contact
+                &quot;I find it really hard to track warehouse performance on the dashboard. There&apos;s no clear summary of
+                what&apos;s been processed versus what&apos;s pending or delayed. I usually have to export reports or contact
                 support for clarification. A separate analytics section with just the key figures would save me so much
-                time."
+                time.&quot;
               </p>
               <p className="text-gray-500 text-sm md:text-base font-medium">
                 ~ Sarah Khan - Operations Director at Swift Logistics

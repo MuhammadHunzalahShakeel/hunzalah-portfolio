@@ -211,7 +211,7 @@ export function DefinePhase() {
         <div>
           <h3 className="text-2xl md:text-3xl font-semibold text-black mb-6 md:mb-8">Empathy Map</h3>
           <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-8 md:mb-12">
-            The empathy map is like a teamwork tool that helps teams understand their customers better. It's like a
+            The empathy map is like a teamwork tool that helps teams understand their customers better. It&apos;s like a
             picture of a group of users, such as a specific customer type. Using the empathy map, teams can learn about
             what their customers need, how they feel, and what they do. This helps teams make their products or services
             better suited to their customers.
@@ -234,14 +234,14 @@ export function DefinePhase() {
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-sm md:text-base text-gray-700">
-                      Due to the outdated design and lack of a wow factor, I'm encountering difficulties in marketing
+                      Due to the outdated design and lack of a wow factor, I&apos;m encountering difficulties in marketing
                       and client demos.
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-sm md:text-base text-gray-700">
-                      It's challenging to train pickers, packers, & shippers to use App.
+                      It&apos;s challenging to train pickers, packers, & shippers to use App.
                     </p>
                   </div>
                 </div>
@@ -254,7 +254,7 @@ export function DefinePhase() {
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-sm md:text-base text-gray-700">
-                      The menu structure and flow need improvement to clearly convey our app's problem-solving
+                      The menu structure and flow need improvement to clearly convey our app&apos;s problem-solving
                       capabilities to customers.
                     </p>
                   </div>
@@ -281,7 +281,7 @@ export function DefinePhase() {
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></div>
                     <p className="text-sm md:text-base text-gray-700">
-                      Integrating our system involves understanding the client's use case and modifying it accordingly.
+                      Integrating our system involves understanding the client&apos;s use case and modifying it accordingly.
                     </p>
                   </div>
                   <div className="flex items-start gap-3">

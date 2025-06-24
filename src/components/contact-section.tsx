@@ -7,7 +7,7 @@ export function ContactSection() {
         {/* Contact Message */}
         <div className="mb-8 md:mb-12">
           <p className="text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto">
-            Let's connect, share stories, and collaborate to learn and grow
+            Let&apos;s connect, share stories, and collaborate to learn and grow
             together.
           </p>
         </div>

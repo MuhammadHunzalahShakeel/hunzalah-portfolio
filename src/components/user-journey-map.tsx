@@ -7,7 +7,7 @@ export function UserJourneyMap() {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">User Journey Map</h2>
           <p className="text-gray-700 text-base md:text-lg leading-relaxed">
             Outlining the step-by-step experience of a user interacting with our product or service, it highlights key
-            touchpoints, emotions, and pain points throughout the user's journey.
+            touchpoints, emotions, and pain points throughout the user&apos;s journey.
           </p>
         </div>
 

@@ -80,11 +80,11 @@ export function PortfolioShowcase() {
         {/* Design Quote */}
         <div className="text-center max-w-4xl mx-auto">
           <blockquote className="text-2xl md:text-3xl lg:text-4xl font-light leading-relaxed text-white">
-            <span className="text-gray-400">"</span>
+            <span className="text-gray-400">&quot;</span>
             Design is not just what it looks like and feels like.
             <br />
             Design is how it works
-            <span className="text-gray-400">"</span>
+            <span className="text-gray-400">&quot;</span>
           </blockquote>
         </div>
       </div>
