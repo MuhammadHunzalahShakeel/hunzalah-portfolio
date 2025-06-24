@@ -11,7 +11,7 @@ export function PortfolioShowcase() {
             <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-400 via-purple-500 to-purple-600 p-8 h-full">
               <div className="relative bg-white rounded-lg shadow-2xl transform group-hover:scale-105 transition-transform duration-300 h-full">
                 <Image
-                  src="/hero1.png?height=400&width=600"
+                  src="/Hero1.png?height=400&width=600"
                   alt="Analytics Dashboard Project"
                   width={600}
                   height={400}
