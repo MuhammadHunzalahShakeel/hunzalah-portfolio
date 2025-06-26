@@ -11,11 +11,11 @@ export function AboutSection() {
           <div className="relative order-2 lg:order-1">
             <div className="relative overflow-hidden rounded-xl md:rounded-2xl">
               <Image
-                src="/about.png?height=600&width=500"
+                src="/hunzalah2.png?height=600&width=500"
                 alt="Hunzalah - UI UX Designer"
                 width={500}
                 height={600}
-                className="w-full h-auto object-cover grayscale"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
@@ -47,13 +47,19 @@ export function AboutSection() {
             </div>
 
             <div className="pt-4">
+              <a
+              href="https://drive.google.com/file/d/1EvYoGZDhBGq3N1mxAlbCzouM7j6VTusQ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button
                 variant="outline"
-                className="bg-white text-black hover:bg-gray-100 border-white font-medium px-4 md:px-6 py-2 md:py-3 rounded-full text-sm md:text-base"
+                className="cursor-pointer bg-white text-black hover:bg-gray-100 border-white font-medium px-4 md:px-6 py-2 md:py-3 rounded-full text-sm md:text-base"
               >
                 View Resume
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
+            </a>
             </div>
           </div>
         </div>
