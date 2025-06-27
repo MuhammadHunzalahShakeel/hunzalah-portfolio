@@ -14,8 +14,8 @@ export default function Home() {
       <HeroSection />
       <PortfolioShowcase />
       <FeaturedProjects />
-      <AdditionalProjects />
-      <MoreProjects />
+      {/*<AdditionalProjects />
+      <MoreProjects /> */}
       <AboutSection />
       <ContactSection />
     </div>
