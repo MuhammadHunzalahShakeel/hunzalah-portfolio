@@ -51,6 +51,29 @@ export function FeaturedProjects() {
               </p>
             </div>
           </Link> 
+
+          {/* Lawscript Project - Right Aligned and Occupying Full Space */}
+          <Link href="/case-study/lawscript" className="group cursor-pointer">
+            <div className="relative overflow-hidden rounded-2xl p-0 h-auto flex">
+              <div className="relative h-full w-full">
+                <Image
+                  src="/lawmain.svg" // Correct image path for Lawscript
+                  alt="LawScript Project"
+                  width={600}
+                  height={400}
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
+            </div>
+            <div className="mt-4 md:mt-6">
+              <h3 className="text-xl md:text-2xl lg:text-3xl font-medium text-white mb-2 pt-2">
+                LawScript
+              </h3>
+              <p className="text-teal-400 text-base md:text-lg">
+                Web App, UI UX Design
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
     </section>
