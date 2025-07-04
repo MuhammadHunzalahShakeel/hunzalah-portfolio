@@ -11,6 +11,8 @@ export function HeroSection() {
             currently at{" "}
             <Link
               href="https://asaanretail.io/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline hover:opacity-80 transition-opacity decoration-2 underline-offset-4"
             >
               Asaan Retail
@@ -22,6 +24,8 @@ export function HeroSection() {
           Previously at{" "}
           <Link
             href="https://shispare.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="underline hover:opacity-80 transition-opacity decoration-1 underline-offset-2"
           >
             Shispare
