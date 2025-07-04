@@ -42,11 +42,14 @@ export function Navigation() {
               Work
             </Link>
             <Link
-              href="/resume"
+              href="https://drive.google.com/file/d/1CAe5gB_TNtFGFEgV8W7dPb9H9vkCNL-u/view?usp=sharing"
               className={`${navTextColor} hover:opacity-80 transition-opacity`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Resume
             </Link>
+
             <Link
               href="/#about"
               className={`${navTextColor} hover:opacity-80 transition-opacity`}
@@ -88,7 +91,7 @@ export function Navigation() {
               Work
             </Link>
             <Link
-              href="/resume"
+              href="/#resume"
               className={`${navTextColor} text-2xl hover:opacity-80 transition-opacity`}
               onClick={toggleMenu}
             >

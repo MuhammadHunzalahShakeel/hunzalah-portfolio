@@ -18,8 +18,8 @@ export function CaseStudyHero() {
               />
             </div>
             <div>
-              <div className="text-teal-500 font-bold text-2xl md:text-3xl">Sphere</div>
-              <div className="text-gray-700 font-medium text-sm md:text-base tracking-wider">WMS</div>
+              <div className="text-teal-500 font-bold text-2xl md:text-3xl">Asaan</div>
+              <div className="text-gray-700 font-medium text-sm md:text-base tracking-wider">Retail</div>
             </div>
           </div>
         </div>
