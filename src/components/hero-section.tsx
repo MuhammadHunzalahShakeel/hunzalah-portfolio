@@ -10,7 +10,7 @@ export function HeroSection() {
           <span className="block">
             currently at{" "}
             <Link
-              href="#"
+              href="https://asaanretail.io/"
               className="underline hover:opacity-80 transition-opacity decoration-2 underline-offset-4"
             >
               Asaan Retail
@@ -21,7 +21,7 @@ export function HeroSection() {
         <p className="text-gray-400 text-base md:text-lg lg:text-xl">
           Previously at{" "}
           <Link
-            href="#"
+            href="https://shispare.com/"
             className="underline hover:opacity-80 transition-opacity decoration-1 underline-offset-2"
           >
             Shispare
