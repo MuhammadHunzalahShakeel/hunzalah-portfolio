@@ -118,70 +118,15 @@ export default function LawScriptCaseStudy() {
   </div>
 </section>
 {/* Research Section */}
-<section className="px-4 md:px-12 lg:px-16 bg-white">
+<section className="px-4 md:px-12 lg:px-16 bg-white pt-12">
   <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
     {/* Research Section */}
     <div>
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Research</h2>
       <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
         <p>
-          Before exploring potential solutions, it was essential to develop a deep understanding of our users and the challenges they faced. To achieve this, we conducted user interviews with both active users and those who had recently stopped using the platform.
-        </p>
+        To identify the specific pain points and needs of users, we conducted extensive research, including interviews with law professionals, law students, and legal experts. The feedback gathered highlighted the inefficiency of traditional methods, the time-consuming nature of manual searches, and the lack of a centralized platform for legal information. We also reviewed current legal research methods and tools used in Pakistan, identifying their limitations and gaps.</p>
       </div>
-    </div>
-
-    {/* Quote Section */}
-    <div className="space-y-6">
-      {/* First Quote */}
-      <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-        <p className="text-gray-700 text-lg leading-relaxed">
-          The current dashboard feels overwhelming. Everything is crammed into one screen, and I often have to scroll or guess where to find the numbers I need. I mostly care about daily sales and delivery updates, but I have to dig through unrelated data to get that.
-        </p>
-        <p className="mt-4 text-gray-500 text-sm text-right">~ Zain Ul Haq - CEO of discounter.pk</p>
-      </div>
-
-      {/* Second Quote */}
-      <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-        <p className="text-gray-700 text-lg leading-relaxed">
-          I find it really hard to track my finances on the dashboard. There’s no clear summary of what I’ve earned versus what’s pending or deducted. I usually have to export reports or contact support for clarification. A separate finance section with just the key figures would save me so much time.
-        </p>
-        <p className="mt-4 text-gray-500 text-sm text-right">~ Muddabbir Ali - CEO of SCENTS N SECRETS</p>
-      </div>
-    </div>
-
-  </div>
-
-</section>
-{/* Usability Testing Section */}
-<section className="px-4 md:px-12 lg:px-16 bg-white pt-12">
-  <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
-    {/* Usability Testing Header */}
-    <div>
-      <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Usability Testing</h2>
-      <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
-        <p>
-          To evaluate the effectiveness of the current dashboard design, we conducted usability testing with existing users. The results revealed several key issues: users struggled to filter and access relevant data, lacked clear visibility into their inventory status, and were often confused about how to navigate to detailed views—frequently clicking on dashboard cards expecting them to be interactive.
-        </p>
-      </div>
-    </div>
-
-    {/* Three Images Section - Horizontal Layout */}
-    <div className="flex gap-8 justify-center ">
-      <img 
-        src="/asaan4.png" 
-        alt="Image 1"  
-        className="w-[300px] h-[200px] object-cover rounded-lg"  
-      />
-      <img 
-        src="/asaan5.png" 
-        alt="Image 2"  
-        className="w-[300px] h-[200px] object-cover rounded-lg"  
-      />
-      <img 
-        src="/asaan6.png" 
-        alt="Image 3"  
-        className="w-[300px] h-[200px] object-cover rounded-lg"  
-      />
     </div>
   </div>
 </section>
@@ -193,19 +138,20 @@ export default function LawScriptCaseStudy() {
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">The Approach</h2>
       <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
         <p>
-          We began by conducting stakeholder interviews and analyzing how different teams (Sales, Inventory, Courier, Finance) use the dashboard. Based on user pain points and business needs, we proposed a modular restructuring of the dashboard into four dedicated sections:
-        </p>
+          Our approach involved understanding the user’s journey and how legal professionals interacted with legal research platforms. Based on this insight, we designed a simple yet powerful SaaS platform that leveraged AI technology to deliver relevant, accurate, and verified case laws. We focused on user experience, ensuring a seamless and intuitive interface that could easily cater to both students and professionals. The product was designed to be scalable, ensuring that as LawScript grows, its functionality and user base can expand with it.</p>
 
-        <ul className="list-disc pl-6 mt-4">
-          <li>Sales</li>
-          <li>Inventory</li>
-          <li>Courier</li>
-          <li>Finance</li>
-        </ul>
+        <ul className="list-disc pl-6 mt-4 space-y-2">
+  <li>
+    <span className="font-semibold text-[#DAC397]">Branding:</span> We developed a strong and clear brand identity for LawScript, ensuring that the visual elements aligned with the legal profession’s credibility and professionalism.
+  </li>
+  <li>
+    <span className="font-semibold text-[#DAC397]">Website Design:</span> We crafted a responsive and user-friendly website that allowed users to easily navigate and access the platform’s services.
+  </li>
+  <li>
+    <span className="font-semibold text-[#DAC397]">Product Design (Web & App):</span> We designed both a web and mobile application to ensure accessibility and usability for legal professionals and students alike. These designs incorporated intuitive search features, AI-powered results, and verified case information, all designed to streamline the research process.
+  </li>
+</ul>
 
-        <p className="mt-4">
-          Each section was tailored to its team’s KPIs, helping reduce noise and allowing users to focus on the metrics that mattered most to them.
-        </p>
       </div>
     </div>
 
@@ -215,27 +161,45 @@ export default function LawScriptCaseStudy() {
 {/* Solution Section */}
 <section className="px-4 md:px-12 lg:px-16 bg-white pt-12">
   <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
-    {/* Background Section */}
     <div>
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Solution</h2>
-      <div className="prose prose-lg max-w-none">
-        <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-        We restructured the dashboard into four focused modules—Sales, Inventory, Courier, and Finance—each containing only relevant widgets. This reduced clutter and helped users focus on their specific tasks.
-Widgets were redesigned for clarity, using clean charts, summary cards, and filters for deeper insights.
-We also enhanced the UX with a clear layout hierarchy, responsive design, and tooltips for better usability and comprehension
-        </p>
+      <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
+        <p>
+          The solution we delivered was a fully functional and user-centric web and mobile platform that enables users to:</p>
+       <ul className="list-decimal pl-6 mt-4 space-y-2">
+  <li>
+    <span className="font-semibold text-[#DAC397]">Search for legal cases and citations:</span> Users can quickly search and find relevant legal cases and references.
+  </li>
+  <li>
+    <span className="font-semibold text-[#DAC397]">View verified results:</span> The AI-powered platform provides citation accuracy and proof for each legal reference.
+  </li>
+  <li>
+    <span className="font-semibold text-[#DAC397]">Accessible on any device:</span> The platform is optimized for both web and mobile devices, ensuring users can access information on the go.
+  </li>
+  <li>
+    <span className="font-semibold text-[#DAC397]">Personalized user experience:</span> Each user can save and track cases they are researching, helping them stay organized in their legal studies or practice.
+  </li>
+</ul>
+
+
       </div>
     </div>
-  
-  </div>
-  <div className="mb-12 md:mb-16 flex justify-center pt-12">
+ <div className="mb-12 md:mb-16 flex justify-center pt-12">
   <img 
-    src="/asaan7.png" 
+    src="/law3.png" 
     alt="Dashboard redesign"  
-    className="w-[1300px] h-[1900px] object-cover rounded-lg"  
+    className="w-[1000px] h-[600px] object-cover rounded-lg"  
   />
 </div>
-</section>           
+<div className="mb-12 md:mb-16 flex justify-center pt-12">
+  <img 
+    src="/law4.png" 
+    alt="Dashboard redesign"  
+    className="w-[1000px] h-[600px] object-cover rounded-lg"  
+  />
+</div>
+  </div>
+</section>     
 {/* Outcome Section */}
 <section className="px-4 md:px-12 lg:px-16 bg-white pt-12">
   <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
@@ -244,26 +208,29 @@ We also enhanced the UX with a clear layout hierarchy, responsive design, and to
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Outcome</h2>
       <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
         <p>
-          After launching the redesigned dashboard, we observed significant improvements in usability and team efficiency:
+          After launching the LawScript platform, the startup not only observed significant improvements in usability, user engagement, and workflow efficiency but also successfully secured funding.
+
+
         </p>
 
         <ul className="space-y-6 pt-4">
           <li className="flex items-start">
-            <span className="text-[#009241] mr-3">🧠</span>
-            <div>
-              <h3 className="text-[#009241] text-xl font-semibold">37% Reduction in Time to Find Data</h3>
+            <span className="text-[#009241] mr-3">⚡</span>
+             <div>
+              <h3 className="text-[#DAC397] text-xl font-semibold">Funding Achievement</h3>
               <p className="text-gray-700">
-                Users were able to focus faster with clearer, role-specific dashboards.
+               LawScript's rebranding and redesigned platform played a pivotal role in helping the startup secure 1M PKR in funding. This investment will be used to further enhance the platform's features, scale operations, and increase user outreach.
               </p>
             </div>
+            
           </li>
 
           <li className="flex items-start">
-            <span className="text-[#009241] mr-3">⚡</span>
+            <span className="text-[#009241] mr-3">🧠</span>
             <div>
-              <h3 className="text-[#009241] text-xl font-semibold">Improved Decision-Making Speed</h3>
+              <h3 className="text-[#DAC397] text-xl font-semibold">Time Efficiency</h3>
               <p className="text-gray-700">
-                Teams reported quicker analysis and more confident, timely decisions.
+               Legal professionals reported a 40-50% reduction in time spent on research, as the AI-powered platform streamlined the search and citation process.
               </p>
             </div>
           </li>
@@ -271,9 +238,9 @@ We also enhanced the UX with a clear layout hierarchy, responsive design, and to
           <li className="flex items-start">
             <span className="text-[#009241] mr-3">📊</span>
             <div>
-              <h3 className="text-[#009241] text-xl font-semibold">Better Task Alignment Across Departments</h3>
+              <h3 className="text-[#DAC397] text-xl font-semibold">Increased Productivity:</h3>
               <p className="text-gray-700">
-                Modular sections allowed each team to view only what mattered to them.
+                Lawyers and students were able to focus on more critical aspects of their cases or studies, enhancing overall productivity.
               </p>
             </div>
           </li>
@@ -281,9 +248,9 @@ We also enhanced the UX with a clear layout hierarchy, responsive design, and to
           <li className="flex items-start">
             <span className="text-[#009241] mr-3">😊</span>
             <div>
-              <h3 className="text-[#009241] text-xl font-semibold">Increased User Satisfaction</h3>
+              <h3 className="text-[#DAC397] text-xl font-semibold">High User Adoption</h3>
               <p className="text-gray-700">
-                Users gave positive feedback on the simplified layout and improved clarity.
+                Within months of the platform's launch, LawScript saw a growing number of users, including law students and firms, who praised the ease of access to accurate legal data.
               </p>
             </div>
           </li>
@@ -301,15 +268,15 @@ We also enhanced the UX with a clear layout hierarchy, responsive design, and to
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Learning</h2>
       <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
         <p>
-          Reflecting on my experience as a Product Designer in this case study, here are concise key learnings:
+          From working with LawScript, we gained valuable insights into the legal industry’s unique needs and challenges:
         </p>
 
         <ul className="space-y-6 pt-4">
           <li className="flex items-start">
             <div>
-              <h3 className="text-[#009241] text-xl font-semibold">User-Centric Design:</h3>
+              <h3 className="text-[#DAC397] text-xl font-semibold">Importance of Accuracy: </h3>
               <p className="text-gray-700">
-                 Emphasized the importance of basing decisions on user needs and feedback.
+                  In the legal field, accuracy is paramount, and users need to trust the information they are working with. We ensured that LawScript provided fully verified and accurate legal data at all times.
               </p>
             </div>
           </li>
@@ -317,9 +284,9 @@ We also enhanced the UX with a clear layout hierarchy, responsive design, and to
           <li className="flex items-start">
             
             <div>
-              <h3 className="text-[#009241] text-xl font-semibold">Design for Action, Not Just Visuals:</h3>
+              <h3 className="text-[#DAC397] text-xl font-semibold">User-Centered Design:</h3>
               <p className="text-gray-700">
-                Each widget was built to drive decisions—not just look good—ensuring every component had a clear purpose.
+                LawScript emphasized the need for a simple yet powerful user interface, focusing on usability for students and professionals.
               </p>
             </div>
           </li>
@@ -327,9 +294,9 @@ We also enhanced the UX with a clear layout hierarchy, responsive design, and to
           <li className="flex items-start">
            
             <div>
-              <h3 className="text-[#009241] text-xl font-semibold">Stakeholder Feedback is Crucial:</h3>
+              <h3 className="text-[#DAC397] text-xl font-semibold">Scalable Solutions: </h3>
               <p className="text-gray-700">
-                Engaging users early helped validate assumptions and align the design with real-world workflows.
+               As the platform continues to grow, we ensured that the design was scalable, allowing the platform to handle an increasing number of cases and users without sacrificing performance.
               </p>
             </div>
           </li>
