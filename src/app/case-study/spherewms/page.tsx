@@ -1,16 +1,4 @@
 import { Navigation } from "@/components/navigation";
-import { CaseStudyHero } from "@/components/case-study-hero";
-import { DashboardShowcase } from "@/components/dashboard-showcase";
-import { ProjectBackground } from "@/components/project-background";
-import { ExistingDashboard } from "@/components/existing-dashboard";
-import { ProposedSolution } from "@/components/proposed-solution";
-import { DiscoverPhase } from "@/components/discover-phase";
-import { UsabilityTesting } from "@/components/usability-testing";
-import { DefinePhase } from "@/components/define-phase";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
-import { UserJourneyMap } from "@/components/user-journey-map";
 import { CaseStudyFooter } from "@/components/case-study-footer";
 import Image from "next/image";
 
@@ -111,7 +99,7 @@ export default function SphereWMSCaseStudy() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Possible Solution</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-                To address these challenges, we propose a comprehensive overhaul of the SphereWMS platform. We'll implement a user-centered design approach, focusing on an intuitive and streamlined interface with a logical menu structure. Clear workflows will guide users through tasks, minimizing wasted time and effort. This modernized platform will empower users, boosting productivity and enhancing user satisfaction.
+                To address these challenges, we propose a comprehensive overhaul of the SphereWMS platform. We&apos;ll implement a user-centered design approach, focusing on an intuitive and streamlined interface with a logical menu structure. Clear workflows will guide users through tasks, minimizing wasted time and effort. This modernized platform will empower users, boosting productivity and enhancing user satisfaction.
               </p>
             </div>
           </div>
@@ -157,7 +145,7 @@ export default function SphereWMSCaseStudy() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">User Journey Map</h2>
             <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
               <p>
-               Outlining the step-by-step experience of a user interacting with our product or service, it highlights key touchpoints, emotions, and pain points throughout the user's journey.</p>
+               Outlining the step-by-step experience of a user interacting with our product or service, it highlights key touchpoints, emotions, and pain points throughout the user&apos;s journey.</p>
             </div>
           </div>
 

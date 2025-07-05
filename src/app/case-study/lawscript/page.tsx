@@ -1,16 +1,4 @@
 import { Navigation } from "@/components/navigation"
-import { CaseStudyHero } from "@/components/case-study-hero"
-import { DashboardShowcase } from "@/components/dashboard-showcase"
-import { ProjectBackground } from "@/components/project-background"
-import { ExistingDashboard } from "@/components/existing-dashboard"
-import { ProposedSolution } from "@/components/proposed-solution"
-import { DiscoverPhase } from "@/components/discover-phase"
-import { UsabilityTesting } from "@/components/usability-testing"
-import { DefinePhase } from "@/components/define-phase"
-import { Button } from "@/components/ui/button"
-import { ArrowLeft } from "lucide-react"
-import Link from "next/link"
-import { UserJourneyMap } from "@/components/user-journey-map"
 import { CaseStudyFooter } from "@/components/case-study-footer"
 import Image from "next/image"
 export default function LawScriptCaseStudy() {
@@ -219,7 +207,7 @@ export default function LawScriptCaseStudy() {
              <div>
               <h3 className="text-[#DAC397] text-xl font-semibold">Funding Achievement</h3>
               <p className="text-gray-700">
-               LawScript's rebranding and redesigned platform played a pivotal role in helping the startup secure 1M PKR in funding. This investment will be used to further enhance the platform's features, scale operations, and increase user outreach.
+               LawScript&apos;s rebranding and redesigned platform played a pivotal role in helping the startup secure 1M PKR in funding. This investment will be used to further enhance the platform&apos;s features, scale operations, and increase user outreach.
               </p>
             </div>
             
@@ -250,7 +238,7 @@ export default function LawScriptCaseStudy() {
             <div>
               <h3 className="text-[#DAC397] text-xl font-semibold">High User Adoption</h3>
               <p className="text-gray-700">
-                Within months of the platform's launch, LawScript saw a growing number of users, including law students and firms, who praised the ease of access to accurate legal data.
+                Within months of the platform&apos;s launch, LawScript saw a growing number of users, including law students and firms, who praised the ease of access to accurate legal data.
               </p>
             </div>
           </li>
