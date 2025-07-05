@@ -63,7 +63,7 @@ export default function LawScriptCaseStudy() {
   </div>
 </section>
 <section className="px-4 md:px-12 lg:px-16 bg-white">
-  <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
+  <div className="max-w-4xl mx-auto space-y-12 ">
     {/* Background Section */}
     <div>
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Background</h2>
