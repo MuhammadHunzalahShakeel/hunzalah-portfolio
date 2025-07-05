@@ -67,7 +67,7 @@ export default function AsaanRetailCaseStudy() {
                 Company
               </h3>
               <p className="text-black font-semibold text-base md:text-lg">
-                SphereWMS
+                Asaan Retail
               </p>
             </div>
           </div>

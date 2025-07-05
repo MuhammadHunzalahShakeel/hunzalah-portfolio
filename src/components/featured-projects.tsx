@@ -21,10 +21,10 @@ export function FeaturedProjects() {
             </div>
             <div className="mt-4 md:mt-6">
               <h3 className="text-xl md:text-2xl lg:text-3xl font-medium text-white mb-2 pt-2">
-                SphereWMS
+                Improve the legacy warehouse management system
               </h3>
-              <p className="text-teal-400 text-base md:text-lg">
-                Web App, UI UX Design
+              <p className="text-[#28AFE7] text-base md:text-lg">
+                SphereWMS
               </p>
             </div>
           </Link>
@@ -44,10 +44,10 @@ export function FeaturedProjects() {
             </div>
             <div className="mt-4 md:mt-6">
               <h3 className="text-xl md:text-2xl lg:text-3xl font-medium text-white mb-2 pt-2">
-                Asaan Retail
+                A dashboard redesign for better performance and user experience
               </h3>
-              <p className="text-teal-400 text-base md:text-lg">
-                Web App, UI UX Design
+              <p className="text-[#009241] text-base md:text-lg">
+                Asaan Retail
               </p>
             </div>
           </Link> 
@@ -67,10 +67,10 @@ export function FeaturedProjects() {
             </div>
             <div className="mt-4 md:mt-6">
               <h3 className="text-xl md:text-2xl lg:text-3xl font-medium text-white mb-2 pt-2">
-                LawScript
+                Designing an AI-Driven saas solution for law firms
               </h3>
-              <p className="text-teal-400 text-base md:text-lg">
-                Web App, UI UX Design
+              <p className="text-[#DAC397] text-base md:text-lg">
+                LawScript
               </p>
             </div>
           </Link>
