@@ -23,6 +23,7 @@ export function AboutSection() {
           {/* About Content */}
           <div className="space-y-6 order-1 lg:order-2">
             <div className="space-y-4 md:space-y-6 text-gray-300 text-base md:text-lg leading-relaxed">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-6 md:mb-8">About Me</h2>
               <p>
                 I started my journey with a degree in Computer Science from FAST
                 University. While I enjoyed building tech, I found myself more

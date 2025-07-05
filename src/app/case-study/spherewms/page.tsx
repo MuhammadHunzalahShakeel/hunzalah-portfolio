@@ -71,32 +71,37 @@ export default function SphereWMSCaseStudy() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Background</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-                The SphereWMS is a comprehensive warehouse management system (WMS) utilized by large warehouses to efficiently track inventory, manage storage, and fulfill customer orders. The application seamlessly integrates with multiple connected systems, such as ERP and e-commerce platforms, to ensure smooth operations and accurate order processing.
+                When I joined the shispare, sphereWMS was in the process of being redesigned to address usability issues and enhance the overall user experience. We have a team of 2 Designers 1 Product Owner and 1 Product Manager, the goal was to create a more intuitive and efficient platform that would empower warehouse teams to perform their tasks with ease and confidence.
               </p>
             </div>
           </div>
-          {/* Project Image */}
-          <div className="mb-12 md:mb-16 flex justify-center pt-12">
-            <img
-              src="/sphere2.png"
-              alt="Dashboard redesign"
-              className="w-[1000px] h-[500px] object-cover rounded-lg"
-            />
-          </div>
+         
 
           {/* Problem Statement Section */}
           <div>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Problem Statement</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-                Our client, a leading logistics and warehouse management company, has been using the SphereWMS platform, which was built on a legacy Unicode-based system. This system lacked an intuitive menu structure, resulting in a disorganized and inefficient user experience. Navigating the system was unwieldy due to the absence of organized menus and clear process flows, significantly impeding productivity and user satisfaction.
+            The existing system suffered from a poorly structured and unintuitive menu layout, leading to a disorganized and inefficient user experience. Users found it difficult to navigate due to the lack of clear menus and streamlined process flows, which significantly hindered productivity and overall satisfaction. Additionally, feedback from warehouse staff highlighted that the application was slow, and the tasks they needed to perform were often unclear and unnecessarily lengthy.
               </p>
             </div>
           </div>
 
+           {/* Project Image */}
+          <div className="mb-12 md:mb-16 flex flex-col justify-center items-center">
+              <img
+                src="/sphere2.png"
+                alt="Dashboard redesign"
+                className="w-[1100px] h-[500px] object-cover rounded-lg"
+              />
+              <p className="text-center mt-4 text-[#6C6969]">
+                Menu before the redesign.
+              </p>
+            </div>
+
           {/* Possible Solution Section */}
           <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Possible Solution</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Approach</h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700 text-base md:text-lg leading-relaxed">
                 To address these challenges, we propose a comprehensive overhaul of the SphereWMS platform. We&apos;ll implement a user-centered design approach, focusing on an intuitive and streamlined interface with a logical menu structure. Clear workflows will guide users through tasks, minimizing wasted time and effort. This modernized platform will empower users, boosting productivity and enhancing user satisfaction.
@@ -108,32 +113,31 @@ export default function SphereWMSCaseStudy() {
 
       {/* Research Section */}
       <section className="px-4 md:px-12 lg:px-16 bg-white pt-12">
-        <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
+        <div className="max-w-4xl mx-auto space-y-12">
           <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">Research</h2>
+          <h2 className="text-xl md:text-2xl font-semibold text-black mb-6 md:mb-8">Research</h2>
             <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
               <p>
                 Before diving into potential solutions, we recognized the importance of deeply understanding our users and their specific challenges. To achieve this, we conducted user interviews with both active users and those who had recently stopped using the platform. Through this qualitative research, we identified critical pain points and areas of frustration. Our goal was to gather direct feedback and insights to inform our design decisions and ensure that the solutions we proposed would effectively address these challenges.</p>
             </div>
           </div>
-
           {/* Quote Section */}
           <div className="space-y-6">
             {/* First Quote */}
             <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-              <p className="text-gray-700 text-lg leading-relaxed">
-                The current dashboard feels overwhelming. Everything is crammed into one screen, and I often have to scroll or guess where to find the numbers I need. I mostly care about daily sales and delivery updates, but I have to dig through unrelated data to get that.
-              </p>
-              <p className="mt-4 text-gray-500 text-sm text-right">~ Zain Ul Haq - CEO of discounter.pk</p>
+             <div className="text-gray-700 text-lg leading-relaxed space-y-2">
+              <p><strong>Q1.</strong> How long have you been using this system?</p>
+              <p><strong>Q2.</strong> What are your goals when you use this system?</p>
+              <p><strong>Q3.</strong> What problems do you want to solve through the app?</p>
+              <p><strong>Q4.</strong> Are pickers, packers, and shippers technically proficient enough to use the scanner app?</p>
+              <p><strong>Q5.</strong> What are the most time-consuming tasks in your daily operations?</p>
+              <p><strong>Q6.</strong> What features do you find most useful in the current system?</p>
+              <p><strong>Q7.</strong> Can you describe a typical workflow for receiving, storing, and shipping goods?</p>
+              <p><strong>Q8.</strong> How do you train new employees to use the system?</p>
             </div>
 
-            {/* Second Quote */}
-            <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
-              <p className="text-gray-700 text-lg leading-relaxed">
-                I find it really hard to track my finances on the dashboard. There’s no clear summary of what I’ve earned versus what’s pending or deducted. I usually have to export reports or contact support for clarification. A separate finance section with just the key figures would save me so much time.
-              </p>
-              <p className="mt-4 text-gray-500 text-sm text-right">~ Muddabbir Ali - CEO of SCENTS N SECRETS</p>
             </div>
+
           </div>
         </div>
       </section>
@@ -142,10 +146,10 @@ export default function SphereWMSCaseStudy() {
       <section className="px-4 md:px-12 lg:px-16 bg-white pt-12">
         <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
           <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-black mb-6 md:mb-8">User Journey Map</h2>
+            <h2 className="text-xl md:text-2xl font-semibold text-black mb-6 md:mb-8">Implementation</h2>
             <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
               <p>
-               Outlining the step-by-step experience of a user interacting with our product or service, it highlights key touchpoints, emotions, and pain points throughout the user&apos;s journey.</p>
+               Outlining the step-by-step experience of a user interacting with the product, it highlights key touchpoints, emotions, and pain points throughout the user&apos;s journey.</p>
             </div>
           </div>
 
@@ -156,6 +160,21 @@ export default function SphereWMSCaseStudy() {
               className="w-[1400px] h-[700px] object-cover rounded-lg"
             />
           </div>
+          <div className="prose prose-lg max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
+              <p>
+              We then conducted a card sorting exercise to restructure the menu, making it more intuitive and aligned with how users naturally group and access information.</p>
+            </div>
+           
+          <div className="mb-12 md:mb-16 flex flex-col justify-center items-center">
+              <img
+                src="/sphere5.png"
+                alt="Dashboard redesign"
+                className="w-[1100px] h-[500px] object-cover rounded-lg"
+              />
+              <p className="text-center mt-4 text-[#6C6969]">
+                Menu after the redesign.
+              </p>
+            </div>
         </div>
       </section>
 
