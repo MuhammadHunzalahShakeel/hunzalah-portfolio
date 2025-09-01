@@ -10,12 +10,12 @@ export function HeroSection() {
           <span className="block">
             currently at{" "}
             <Link
-              href="https://skillgigs.com/"
+              href="https://asaanretail.io/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:opacity-80 transition-opacity decoration-2 underline-offset-4"
             >
-              Skill Gigs
+              Asaan Retail
             </Link>
           </span>
         </h1>
@@ -23,12 +23,12 @@ export function HeroSection() {
         <p className="text-gray-400 text-base md:text-lg lg:text-xl">
           Previously at{" "}
           <Link
-            href="https://asaanretail.io/"
+            href="https://shispare.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:opacity-80 transition-opacity decoration-2 underline-offset-4"
+            className="underline hover:opacity-80 transition-opacity decoration-1 underline-offset-2"
           >
-            Asaan Retail
+            Shispare
           </Link>
         </p>
       </div>
