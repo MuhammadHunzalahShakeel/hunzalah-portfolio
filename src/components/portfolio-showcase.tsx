@@ -11,7 +11,7 @@ export function PortfolioShowcase() {
             <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-400 via-purple-500 to-purple-600 p-8 h-full">
               <div className="relative bg-white rounded-lg shadow-2xl transform group-hover:scale-105 transition-transform duration-300 h-full">
                 <Image
-                  src="/hero.png?height=400&width=600"
+                  src="/hero.png"
                   alt="Analytics Dashboard Project"
                   width={600}
                   height={400}
@@ -27,7 +27,7 @@ export function PortfolioShowcase() {
             <div className="relative group cursor-pointer">
               <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-blue-600 to-purple-700 p-4 h-full">
                 <Image
-                  src="/hero2.png?height=200&width=300"
+                  src="/hero2.png"
                   alt="Web Experience Project"
                   width={300}
                   height={200}
@@ -40,7 +40,7 @@ export function PortfolioShowcase() {
             <div className="relative group cursor-pointer">
               <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-teal-500 to-green-600 p-4 h-full">
                 <Image
-                  src="/hero3.png?height=200&width=300"
+                  src="/hero3.png"
                   alt="Dashboard Interface"
                   width={300}
                   height={200}
@@ -53,7 +53,7 @@ export function PortfolioShowcase() {
             <div className="relative group cursor-pointer">
               <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-red-500 to-pink-600 p-4 h-full">
                 <Image
-                  src="/hero4.png?height=200&width=300"
+                  src="/hero4.png"
                   alt="Mobile Analytics App"
                   width={300}
                   height={200}
@@ -66,7 +66,7 @@ export function PortfolioShowcase() {
             <div className="relative group cursor-pointer">
               <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-orange-500 to-yellow-500 p-4 h-full">
                 <Image
-                  src="/hero5.png?height=200&width=300"
+                  src="/hero5.png"
                   alt="Data Visualization"
                   width={300}
                   height={200}

@@ -11,7 +11,7 @@ export function AboutSection() {
           <div className="relative order-2 lg:order-1">
             <div className="relative overflow-hidden rounded-xl md:rounded-2xl">
               <Image
-                src="/hunzalah2.png?height=600&width=500"
+                src="/hunzalah2.png"
                 alt="Hunzalah - UI UX Designer"
                 width={500}
                 height={600}

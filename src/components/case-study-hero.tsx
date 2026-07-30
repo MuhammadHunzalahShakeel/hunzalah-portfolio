@@ -10,7 +10,7 @@ export function CaseStudyHero() {
             {/* Logo Placeholder */}
             <div className="w-16 h-16 md:w-20 md:h-20">
               <Image
-                src="/placeholder.svg?height=80&width=80"
+                src="/placeholder.svg"
                 alt="SphereWMS Logo"
                 width={80}
                 height={80}

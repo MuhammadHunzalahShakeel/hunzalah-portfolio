@@ -27,7 +27,7 @@ export function DefinePhase() {
                 <div className="text-center mb-6">
                   <div className="w-48 h-48 mx-auto mb-4 rounded-2xl overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=200&width=200"
+                      src="/placeholder.svg"
                       alt="Ian McIvor - Implementation Manager"
                       width={200}
                       height={200}

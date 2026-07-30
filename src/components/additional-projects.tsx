@@ -21,7 +21,7 @@ export function AdditionalProjects() {
                 </div> */}
                 <div className="relative bg-white rounded-lg shadow-2xl transform group-hover:scale-105 transition-transform duration-300 h-full">
                   <Image
-                    src="/Hero1.png?height=400&width=600"
+                    src="/Hero1.png"
                     alt="Analytics Dashboard Project"
                     width={600}
                     height={400}
@@ -80,7 +80,7 @@ export function AdditionalProjects() {
                 {/* </div> */}
                 <div className="relative bg-white rounded-lg shadow-2xl transform group-hover:scale-105 transition-transform duration-300 h-full">
                   <Image
-                    src="/Hero1.png?height=400&width=600"
+                    src="/Hero1.png"
                     alt="Analytics Dashboard Project"
                     width={600}
                     height={400}

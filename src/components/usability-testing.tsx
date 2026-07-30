@@ -27,7 +27,7 @@ export function UsabilityTesting() {
               <div className="text-2xl md:text-3xl font-bold text-teal-600 mb-4">2,847 Items</div>
               <div className="w-20 h-20 mx-auto mb-4">
                 <Image
-                  src="/placeholder.svg?height=80&width=80"
+                  src="/placeholder.svg"
                   alt="Inventory Chart"
                   width={80}
                   height={80}

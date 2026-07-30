@@ -14,7 +14,7 @@ export function MoreProjects() {
                   <div className="w-80 h-48 bg-gray-200 rounded-lg p-2 shadow-2xl">
                     <div className="w-full h-full bg-white rounded-md overflow-hidden">
                       <Image
-                        src="/placeholder.svg?height=180&width=300"
+                        src="/placeholder.svg"
                         alt="Hopin Virtual Conference Platform"
                         width={300}
                         height={180}
@@ -44,7 +44,7 @@ export function MoreProjects() {
                   <div className="w-80 h-48 bg-gray-200 rounded-lg p-2 shadow-2xl">
                     <div className="w-full h-full bg-white rounded-md overflow-hidden">
                       <Image
-                        src="/placeholder.svg?height=180&width=300"
+                        src="/placeholder.svg"
                         alt="Archivd Blockchain Copyright Platform"
                         width={300}
                         height={180}
