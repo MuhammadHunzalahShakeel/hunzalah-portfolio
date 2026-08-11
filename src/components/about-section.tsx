@@ -49,7 +49,7 @@ export function AboutSection() {
 
             <div className="pt-4">
               <a
-              href="https://drive.google.com/file/d/1CAe5gB_TNtFGFEgV8W7dPb9H9vkCNL-u/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ghdfFs6Byhd90zmUZBRxcL594q_csi1b/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
