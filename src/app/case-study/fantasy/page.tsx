@@ -29,7 +29,7 @@ export default function SkillGigsCaseStudy() {
           <div className="text-center mb-12 md:mb-16">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Fantasy Banking —
-              <span className="text-[#007AFF]">
+              <span className="text-[#460884]">
                 {" "} AI-powered digital banking platform
               </span>
             </h1>
@@ -62,7 +62,7 @@ export default function SkillGigsCaseStudy() {
         {/* Hero Image */}
         <div className="max-w-[1200px] mx-auto">
           <Image
-            src="/fantasy1.svg"
+            src="/fantasy1.png"
             alt="Fantasy Banking"
             width={1200}
             height={700}
@@ -95,9 +95,9 @@ export default function SkillGigsCaseStudy() {
       <section className="px-4 md:px-12 lg:px-16 py-12">
         <div className="max-w-6xl mx-auto">
 
-          <div className="bg-[#f7f7f7] rounded-xl p-6 md:p-10">
+          <div className="rounded-xl p-6 md:p-10">
             <Image
-              src="/fantasy2.svg"
+              src="/fantasy2.png"
               alt="Fantasy Banking"
               width={1200}
               height={700}
@@ -121,7 +121,7 @@ export default function SkillGigsCaseStudy() {
           </h2>
 
       <p className="text-base md:text-lg text-gray-800 leading-relaxed mb-6">
-        Create a seamless digital banking experience that makes everyday financial management simpler, smarter, and more accessible for Caribbean consumers.
+        Create a seamless digital banking experience that makes everyday financial management simpler, smarter, and more accessible for users.
       </p>
 
       {/* Goals */}
@@ -157,7 +157,7 @@ export default function SkillGigsCaseStudy() {
 
           <div className="bg-[#f7f7f7] rounded-xl p-6 md:p-10">
             <Image
-              src="/fantasy3.svg"
+              src="/fantasy3.png"
               alt="Fantasy Banking"
               width={1200}
               height={700}
@@ -329,11 +329,12 @@ export default function SkillGigsCaseStudy() {
       <section className="px-4 md:px-12 lg:px-16 py-12">
         <div className="max-w-6xl mx-auto">
 
-          <div className="bg-[#f7f7f7] rounded-xl p-6 md:p-10">
+          <div className="rounded-xl p-6 md:p-10">
             <Image
               src="/fantasy6.png"
               alt="Fantasy Banking"
               width={1200}
+              height={700}
               className="w-full h-auto rounded-lg"
             />
           <p className="text-center text-gray-700 mt-8 text-sm md:text-base font-bold">
