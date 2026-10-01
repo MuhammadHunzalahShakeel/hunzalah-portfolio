@@ -7,26 +7,6 @@ export function FeaturedProjects() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[80px] md:gap-[100px]">
 
-          {/* Fantasy Banking Project */}
-          <Link href="/case-study/fantasy" className="group cursor-pointer">
-            <div className="rounded-2xl overflow-hidden">
-              <div className="relative h-auto w-full">
-                <Image
-                  src="/fantasymain.svg"
-                  alt="Fantasy Project"
-                  width={600}
-                  height={400}
-                  className="w-full h-auto object-cover rounded-2xl"
-                />
-              </div>
-            </div>
-            <div className="mt-4 md:mt-6 px-2">
-              <h3 className="text-xl md:text-2xl lg:text-3xl font-medium text-white mb-2 pt-2">
-                An AI-powered digital banking platform.
-              </h3>
-              <p className="text-[#007AFF] text-base md:text-lg">Fantasy Banking</p>
-            </div>
-          </Link>
 
           {/* SkillRadar Project */}
           <Link href="/case-study/skillradar" className="group cursor-pointer">
