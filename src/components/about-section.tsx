@@ -34,7 +34,7 @@ export function AboutSection() {
 
               <p>
                 With a creative mindset and growing curiosity, I began exploring
-                design. Over time, it became a clear path. Today, I have 4.5+
+                design. Over time, it became a clear path. Today, I have 5+
                 years of experience working with both startups and enterprise
                 company, designing meaningful, user-centered digital
                 experiences.
